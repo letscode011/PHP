@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Zen Loop', cursive;
+}
+.container{
+    margin: auto;
+    padding: 25px;
+    max-width: 80%;
+}   
+h1 {
+    text-align: center;
+    font-family: 'Acme', sans-serif;
+}
+
+p {
+    text-align: center;
+    font-size: 17px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: deeppink;
+}
+
+input, textarea {
+    width: 80%;
+    border-radius: 8px;
+    padding: 4px;
+    margin: 11px auto;
+    border: 2px solid;
+    font-size: 14px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+.btn{
+    
+    background: rgb(196, 199, 33);
+    padding: 8px 12px;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 14px;
+    cursor: pointer;
+    margin: auto;
+}
+.bg{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.6;
+    object-fit: fill;
+}
